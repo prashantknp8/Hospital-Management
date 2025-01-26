@@ -1,0 +1,67 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>hospital4</groupId>
+  <artifactId>hospital4</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+
+  <dependencies>
+    <!-- Jakarta Servlet API -->
+    <dependency>
+        <groupId>jakarta.servlet</groupId>
+        <artifactId>jakarta.servlet-api</artifactId>
+        <version>5.0.0</version>
+        <scope>provided</scope>
+    </dependency>
+
+    <!-- Jakarta JSP API -->
+   <dependency>
+    <groupId>jakarta.servlet.jsp</groupId>
+    <artifactId>jakarta.servlet.jsp-api</artifactId>
+    <version>4.0.0</version>
+</dependency>
+
+    <!-- Jakarta JSTL -->
+    <dependency>
+    <groupId>jakarta.servlet.jsp.jstl</groupId>
+    <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+    <version>3.0.2</version>
+</dependency>
+    <!-- Optional: Tomcat dependency for local development -->
+    <dependency>
+        <groupId>org.apache.tomcat</groupId>
+        <artifactId>tomcat-servlet-api</artifactId>
+        <version>10.1.0</version>
+        <scope>provided</scope>
+    </dependency>
+
+    <!-- MySQL Connector -->
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>8.0.29</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+  <plugins>
+    <plugin>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.13.0</version>
+      <configuration>
+        <release>21</release> <!-- Use 17 for Java 17 -->
+      </configuration>
+    </plugin>
+  </plugins>
+</build>
+
+
+  <!-- Add Maven Central Repository -->
+  <repositories>
+    <repository>
+        <id>central</id>
+        <url>https://repo.maven.apache.org/maven2</url>
+    </repository>
+  </repositories>
+
+</project>

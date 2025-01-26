@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0"> 
+         
+  
+
+  <display-name>hospital4</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+    <!--  PatientRegister Servlet Mapping -->
+	 <servlet>
+        <servlet-name>registerPatient</servlet-name>
+        <servlet-class>servlet.registerPatient</servlet-class>
+    </servlet>
+
+   
+    <servlet-mapping>
+        <servlet-name>registerPatient</servlet-name>
+        <url-pattern>/registerPatient</url-pattern>
+    </servlet-mapping>
+    
+    
+    <!--  DoctorRegister Servlet Mapping -->
+     <servlet>
+        <servlet-name>registerDoctor</servlet-name>
+        <servlet-class>servlet.registerDoctor</servlet-class>
+    </servlet>
+
+   
+    <servlet-mapping>
+        <servlet-name>registerDoctor</servlet-name>
+        <url-pattern>/registerDoctor</url-pattern>
+    </servlet-mapping>
+    
+     <!-- adminTab Servlet Mapping -->
+     <servlet>
+        <servlet-name>adminTabServlet</servlet-name>
+        <servlet-class>servlet.adminTabServlet</servlet-class>
+    </servlet>
+
+   
+    <servlet-mapping>
+        <servlet-name>adminTabServlet</servlet-name>
+        <url-pattern>/adminTabServlet</url-pattern>
+    </servlet-mapping>
+    
+    <!-- doctorTab Servlet Mapping -->
+     <servlet>
+        <servlet-name>doctorTabServlet</servlet-name>
+        <servlet-class>servlet.doctorTabServlet</servlet-class>
+    </servlet>
+
+   
+    <servlet-mapping>
+        <servlet-name>doctorTabServlet</servlet-name>
+        <url-pattern>/doctorTabServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    
+    
+</web-app>

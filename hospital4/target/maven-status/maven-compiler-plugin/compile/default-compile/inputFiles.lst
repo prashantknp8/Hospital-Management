@@ -1,0 +1,9 @@
+/home/prashant-sharma/eclipse-workspace/hospital4/src/main/java/conn/jdbcConnect.java
+/home/prashant-sharma/eclipse-workspace/hospital4/src/main/java/dao/DoctorDAO.java
+/home/prashant-sharma/eclipse-workspace/hospital4/src/main/java/dao/PatientDAO.java
+/home/prashant-sharma/eclipse-workspace/hospital4/src/main/java/entity/Doctor.java
+/home/prashant-sharma/eclipse-workspace/hospital4/src/main/java/entity/Patient.java
+/home/prashant-sharma/eclipse-workspace/hospital4/src/main/java/servlet/adminTabServlet.java
+/home/prashant-sharma/eclipse-workspace/hospital4/src/main/java/servlet/doctorTabServlet.java
+/home/prashant-sharma/eclipse-workspace/hospital4/src/main/java/servlet/registerDoctor.java
+/home/prashant-sharma/eclipse-workspace/hospital4/src/main/java/servlet/registerPatient.java
