@@ -40,4 +40,4 @@ This project is a Hospital Management System implemented using **Java** with **M
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/hospital-management-system.git
+   git clone https://github.com/prashantsharmaknp8/Hospital-Management.git
